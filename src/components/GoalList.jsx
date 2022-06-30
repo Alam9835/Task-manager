@@ -223,4 +223,4 @@ function GoalList({ goals, setGoals, globalHashTags }) {
 
 export default GoalList;
 
-//TODO add reset filters button?
+

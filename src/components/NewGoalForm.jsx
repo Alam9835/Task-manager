@@ -120,5 +120,4 @@ function NewGoalForm({ setGoals, globalHashTags }) {
 
 export default NewGoalForm;
 
-// To Do - update Form with proper Goal structure
-// Validate Form
+
