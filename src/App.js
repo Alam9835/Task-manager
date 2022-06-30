@@ -1,5 +1,5 @@
 import React from "react";
-import { v4 as uuidv4 } from "uuid";
+// import { v4 as uuidv4 } from "uuid";
 import useLocalStorageState from "./hooks/useLocalStorageState";
 
 import GoalList from "./components/GoalList";
@@ -12,7 +12,7 @@ import Button from "@material-ui/core/Button";
 import Brightness4Icon from "@material-ui/icons/Brightness4";
 import Brightness7Icon from "@material-ui/icons/Brightness7";
 import IconButton from "@material-ui/core/IconButton";
-import GitHubIcon from "@material-ui/icons/GitHub";
+
 import Link from "@material-ui/core/Link";
 import PropTypes from "prop-types";
 import AppBar from "@material-ui/core/AppBar";

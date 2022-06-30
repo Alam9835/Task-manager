@@ -50,7 +50,7 @@ const useStyles = makeStyles((theme) => ({
 
 function GoalList({ goals, setGoals, globalHashTags }) {
   const classes = useStyles();
-  const [searchText, setSearchText, resetSearchText] = useInputState("");
+  const [searchText, setSearchText] = useInputState("");
   const [selectedHastagIds, setSelectedHashTagIds] = useState({});
   const [filteredGoals, setFilteredGoals] = useState(goals);
   const [sortedGoals, setSortedGoals] = useState(filteredGoals);

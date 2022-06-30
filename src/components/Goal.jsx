@@ -87,8 +87,8 @@ function EditGoal({ goal, setGoals, globalHashTags, setEditing }) {
     },
   }));
   const classes = useStyles();
-  const [name, setName, resetName] = useInputState(goal.name);
-  const [desc, setDesc, resetDesc] = useInputState(goal.description);
+  const [name, setName] = useInputState(goal.name);
+  const [desc, setDesc] = useInputState(goal.description);
   const [hashTags, setHashTags] = useState(goal.hashTags);
 
   const handleUpdateGoal = (e) => {
