@@ -1,3 +1,100 @@
+# **TASK MANAGER**
+
+### A Web-based Task Manager application. It allows you to add tasks, and update them. You can add description of the tasks, mark them as complete, If you want, you can also delete tasks when you're done with them.
+
+### We will be using node.js and npm (they come together) which are required to run our React app.
+
+
+# We’ll create a React app by running the following command:
+```
+npx create-react-app my-app
+
+cd my-app
+
+npm start
+```
+
+# Features:
+
+## 1. Add Task:-
+
+![task1](https://user-images.githubusercontent.com/88643897/181915157-cc2fe94e-bc3d-4092-b989-b603722aad44.PNG)
+
+## 2.Start/Pause Timer
+
+
+
+
+
+![task2](https://user-images.githubusercontent.com/88643897/181916026-06e18640-2218-473a-ad23-3e2c2bb7b584.PNG)
+
+
+## 3.Edit Task
+
+
+![task3](https://user-images.githubusercontent.com/88643897/181916064-1621daa0-9acb-43c7-831c-070ff4f49ac7.PNG)
+
+
+## 4.Delect Task
+
+
+
+
+![task4](https://user-images.githubusercontent.com/88643897/181916117-3060d68c-450d-4149-91cf-b2cc2547b094.PNG)
+
+## 5.Dark/Light Mode
+
+
+![task5](https://user-images.githubusercontent.com/88643897/181916132-4923d787-02cd-438f-b3a7-dca7b3fd48d4.PNG)
+
+
+
+# Built With
+
+- React - Web UI library
+
+- React-redux - Predictable state container for React
+
+- React Router - Routing library
+
+- Chart.js - Charting library
+
+- Webpack - v4 - Module bundler
+
+
+
+
+
+# Run project on your computer
+
+ - [ ] Clone the Repository :
+   ```
+
+   git clone <url>
+   
+   
+   ```
+   
+- [ ]  Install Dependencies and Start Development Server
+   ``` 
+   npm install
+   npm start
+   
+   ```
+ - [ ] Build and run production app
+   ```
+   npm run build
+   npm install -g server
+   serve -s build
+   ```
+   
+  
+   
+   
+   
+   
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
